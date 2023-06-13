@@ -7,9 +7,13 @@ import AnimatedLetters from '../AnimationLetters';
 
 const projects = [
     { id: 1, name: 'Intelligent Chatbot', project_tool: 'Tools: Python, PyTorch', description: ['Developed a chatbot using PyTorch that integrates with a weather API, allowing users to obtain current weather information for a specified location',
-     'Implemented natural language processing techniques to understand user commands and provide relevant weather data with weather APIs'] },
+     'Implemented natural language processing techniques to understand user commands and provide relevant weather data with weather APIs',
+    'Conducted rigorous testing and validation of the chatbots performance, fine-tuning the model and improving its accuracy over time.',
+     'Developed robust error handling and fallback mechanisms to gracefully handle user inputs that the chatbot could not understand or respond to.'] },
     { id: 2, name: 'Image Classification', project_tool: ' Tools: Python, TensorFlow', description: ['Utilized VGG16 and EfficientB0 models to accurately classify bird images into 20 distinct categories.',
-     'Employed transfer learning techniques to leverage pre-trained models and achieve high classification accuracy.'] },
+     'Employed transfer learning techniques to leverage pre-trained models and achieve high classification accuracy.',
+    'Implemented data augmentation techniques such as rotation, scaling, and flipping to enhance the training dataset and improve model generalization.',
+     '•	Conducted extensive model evaluation and fine-tuning, adjusting hyperparameters and regularization techniques to optimize the performance of the image classification models.'] },
     { id: 3, name: 'Stock Price Prediction', project_tool: ' Tools: Python, TensorFlow', description: ['Utilized Sklearn techniques for comprehensive data preprocessing, including handling missing values, feature scaling, and data normalization. Generated a prediction model by leveraging Keras to forecast the next day stock closing price.',
     'Conducted extensive model evaluation and fine-tuning, employing techniques such as cross-validation, hyperparameter optimization, and regularization, to achieve high prediction accuracy and minimize overfitting.',
 'Employed various neural network architectures, including recurrent neural networks (RNNs) or long short-term memory (LSTM) networks, to capture temporal dependencies and patterns in the stock price data.'] },
