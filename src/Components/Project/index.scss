@@ -1,0 +1,51 @@
+.project-list {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project-item {
+    margin-bottom: 30px;
+  }
+  
+  .project-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: aquamarine;
+  }
+  
+  .project-description {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+    font-size: 16px;
+    color: #fff;
+    animation: FadeIn 2s 2s;
+
+  }
+  .project-tool {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: cadetblue;
+  }
+  .project-description li {
+    margin-bottom: 8px;
+  }
+
+  .object-list {
+    margin-bottom: 20px;
+    color: #fff;
+  
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        padding-left: 0;
+        font-size: 16px;
+        color: #fff;
+        animation: FadeIn 2s 2s;
+        padding-bottom: 10%;
+    }
+    li {
+        margin-bottom: 20px;
+    }
+  
+  }
