@@ -6,19 +6,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AnimatedLetters from '../AnimationLetters';
 
 const projects = [
-    { id: 1, name: 'Intelligent Chatbot', project_tool: 'Tools: Python, PyTorch', description: ['Developed a chatbot using PyTorch that integrates with a weather API, allowing users to obtain current weather information for a specified location',
+    { id: 1, name: 'Personal Portfolio Web Application', project_tool: 'Tools: React', description: ['Developed a responsive and interactive personal portfolio website using React.js, showcasing my skills, projects, and experience.',
+'Implemented a clean and modern design with smooth animations and transitions to enhance the user experience.',
+'Configured and customized the EmailJS APIs service to send contact form submissions to my designated email address.'] },
+    // Add more projects as needed
+    { id: 2, name: 'Intelligent Chatbot', project_tool: 'Tools: Python, PyTorch', description: ['Developed a chatbot using PyTorch that integrates with a weather API, allowing users to obtain current weather information for a specified location',
      'Implemented natural language processing techniques to understand user commands and provide relevant weather data with weather APIs',
     'Conducted rigorous testing and validation of the chatbots performance, fine-tuning the model and improving its accuracy over time.',
      'Developed robust error handling and fallback mechanisms to gracefully handle user inputs that the chatbot could not understand or respond to.'] },
-    { id: 2, name: 'Image Classification', project_tool: ' Tools: Python, TensorFlow', description: ['Utilized VGG16 and EfficientB0 models to accurately classify bird images into 20 distinct categories.',
+    { id: 3, name: 'Image Classification', project_tool: ' Tools: Python, TensorFlow', description: ['Utilized VGG16 and EfficientB0 models to accurately classify bird images into 20 distinct categories.',
      'Employed transfer learning techniques to leverage pre-trained models and achieve high classification accuracy.',
     'Implemented data augmentation techniques such as rotation, scaling, and flipping to enhance the training dataset and improve model generalization.',
      '•	Conducted extensive model evaluation and fine-tuning, adjusting hyperparameters and regularization techniques to optimize the performance of the image classification models.'] },
-    { id: 3, name: 'Stock Price Prediction', project_tool: ' Tools: Python, TensorFlow', description: ['Utilized Sklearn techniques for comprehensive data preprocessing, including handling missing values, feature scaling, and data normalization. Generated a prediction model by leveraging Keras to forecast the next day stock closing price.',
+    { id: 4, name: 'Stock Price Prediction', project_tool: ' Tools: Python, TensorFlow', description: ['Utilized Sklearn techniques for comprehensive data preprocessing, including handling missing values, feature scaling, and data normalization. Generated a prediction model by leveraging Keras to forecast the next day stock closing price.',
     'Conducted extensive model evaluation and fine-tuning, employing techniques such as cross-validation, hyperparameter optimization, and regularization, to achieve high prediction accuracy and minimize overfitting.',
 'Employed various neural network architectures, including recurrent neural networks (RNNs) or long short-term memory (LSTM) networks, to capture temporal dependencies and patterns in the stock price data.'] },
     // Add more projects as needed
-    { id: 4, name: 'Blog Web Application', project_tool: 'Tools: Node.js, Vue, MongoDB', description: ['Employed RESTful API architecture principles to ensure standardized communication between the frontend and backend components of the application.',
+    { id: 5, name: 'Blog Web Application', project_tool: 'Tools: Node.js, Vue, MongoDB', description: ['Employed RESTful API architecture principles to ensure standardized communication between the frontend and backend components of the application.',
     'Utilized Node.js as the backend framework to handle server-side logic and API endpoints for the blog web application.',
 'Integrated MongoDB, a NoSQL database, to store and manage blog articles, enabling efficient retrieval and manipulation of data.',
 'Implemented user authentication and authorization features, allowing registered users to create, edit, and delete their own articles while maintaining security and data privacy.'] },
